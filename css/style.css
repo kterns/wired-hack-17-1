@@ -1,0 +1,457 @@
+body{
+    background-color: #f8faff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.time{
+    display:block;
+    margin-bottom:5px;
+}
+.site-title h1{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: #8fd4d9;
+}
+.site-title img{
+    max-width: 50px;
+    padding: 10px 0;
+    display: inline-block;
+}
+h2, h3{
+    color:#777;
+}
+ul{
+    padding-left:0;
+    list-style-type:none;
+}
+header{
+    background-color: #fff;
+    box-shadow: 2px -8px 21px 1px;
+}
+a:hover{
+    text-decoration:none;
+}
+.btn-primary{
+    border-radius: 4px;
+    padding: 7px 11px;
+    border: 1px solid #8fd4d9;
+    color: #8fd4d9;
+    background-color:transparent;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-modal, .btn-modal:hover, .btn-modal:focus{
+    color:#fff;
+    background-color: #8fd4d9;
+    border: 1px solid #8fd4d9;
+}
+.btn-primary.edit{
+    margin-top: -3px;
+}
+.btn-close, .btn-close:hover, .btn-close:focus{
+    background-color:#d93240;
+    color:#fff;
+}
+.btn-add{
+    padding-left:0;
+}
+.add-button{
+    text-align:right;
+}
+.btn-secondary{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn-secondary:hover{
+    color:#8fd4d9;
+    background-color:#fff;
+    border:none;
+}
+
+.edit{
+    float:right;
+    position:absolute;
+    right:15px;
+    top:15px;
+}
+.edit:hover, .message-box:hover{
+    cursor:pointer;
+}
+.well-list li{
+    color: #777;
+    font-weight: 700;
+}
+.data{
+    display:block;
+    font-weight:400;
+}
+.area-away{
+    width:100px;
+    margin:0 5px;
+}
+.form-group.inline h4, .form-group.inline select, .form-group.inline input{
+    display:inline-block;
+}
+.request h4{
+    font-weight: 600;
+}
+.manage span{
+    color: #8fd4d9;
+    margin-left: 10px;
+}
+.manage{
+    position: absolute;
+    right: 15px;
+    width: 150px;
+    top: 50px;
+    font-size: 20px;
+}
+.manage span:hover{
+    cursor:pointer;
+}
+#help-list .help-title{
+    width:60%;
+}
+#main-page{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#main-menu{
+    margin-bottom: 0;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 0;
+    float: right;
+}
+footer{
+    margin-top:30px;
+}
+.slider .slick-slide{
+    background-size:cover;
+    background-position:center center;
+}
+#slide-1{
+    background-image:url('../images/poverty.jpg');
+}
+#slide-2{
+    background-image:url('../images/clothing-landfill.jpg');
+}
+#slide-3{
+    background-image:url('../images/help-elder.jpg');
+}
+.home-slide{
+    padding:0;
+}
+.home-slide .slick-list{
+    height:450px;
+}
+.slick-track{
+    height:100%;
+}
+.slick-prev{
+    left:25px;
+    z-index:10;
+    color:black;
+}
+.slick-prev:before {
+    color:#fff;
+    content: '◀';
+    font-size: 30px;
+}
+.slick-next{
+    right:25px;
+}
+.slick-next:before {
+    color:#fff;
+    content: '▶';
+ font-size: 30px;
+}
+.slick-dots{
+    bottom:10px;
+}
+.slick-dots li button::before{
+    font-size:35px;
+    content: "•";
+}
+.banner-angle{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #17a697;
+    border-top: 450px solid transparent;
+    border-left: 100px solid #17a697;
+    position: absolute;
+    left: 35%;
+    top: 0;
+    bottom: 0;
+}
+.well .block{
+    display:block;
+}
+.banner{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width:35%;
+    color:#fff;
+    padding:0 25px 0 65px;
+    padding-top: 50px;
+}
+.banner h2{
+    color:#fff;
+}
+.banner img{
+    width:100px;
+    height:auto;
+    display: block;
+    vertical-align: bottom;
+    margin: 10px auto 0;
+    float: right;
+}
+.banner .inline-heading{
+    display:inline-block;
+}
+
+.flex-container{
+    display: flex;
+    align-content: center;
+}
+#slide-1 .banner-angle{
+    border-left-color:#17a697;
+    border-bottom-color:#17a697;
+}
+#slide-1 .banner{
+    background-color:#17a697;
+}
+#slide-2 .banner-angle{
+    border-left-color:#8fd4d9;
+    border-bottom-color:#8fd4d9;
+}
+#slide-2 .banner{
+    background-color:#8fd4d9;
+}
+#slide-3 .banner-angle{
+    border-left-color:#638ca6;
+    border-bottom-color:#638ca6;
+}
+#slide-3 .banner{
+    background-color:#638ca6;
+}
+.red{
+     color: #d93240;   
+}
+label .red{
+    font-size: 18px;
+}
+.state{
+    min-width: 65px;
+    width: 18%;
+    display: inline-block;
+}
+.city, .zipcode{
+    width: 40%;
+    display: inline-block;
+}
+.name, .contact{
+    width: 49%;
+    display: inline-block;
+}
+#main-page h2{
+    color:#8fd4d9;
+}
+.img-circle{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid #edebeb;
+    margin: auto;
+}
+.populated-section{
+    padding-left:30px;
+}
+.profile-summary{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.profile-summary h3{
+    margin-top: 0;
+    font-size: 18px;
+}
+.sidebar{
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-top: 15px solid #8fd4d9;
+    border-radius: 4px;
+}
+.sidebar ul{
+    list-style-type:none;
+    padding-left:0;
+}
+.sidebar ul li a{
+    display: block;
+    padding: 15px 10px;
+    color: #777;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sidebar ul li a:hover{
+    text-decoration:none;
+    background-color: #f7f6f6;
+}
+.well{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-bottom:5px;
+    position:relative;
+}
+.well h4{
+    font-size: 20px;
+    display:inline-block;
+}
+.well h5{
+    font-size:18px;
+    display:inline-block;
+}
+.date{
+    display:block;
+}
+.help{
+    font-size: 18px;
+    background-color: #8fd4d9;
+    border-radius: 15px;
+    padding: 3px 5px 3px 15px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.help form{
+    display:inline-block;
+}
+.remove{
+    color: #8fd4d9;
+    vertical-align: text-top;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0px 7px 3px 6px;
+    font-weight: 700;
+    margin-left: 5px;
+    border: none;
+    line-height: initial;
+}
+.dash{
+    margin-left:15px;
+    margin-right:15px;
+}
+.modal-title h3{
+    font-weight:600;
+}
+
+.text-time{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+.me{
+    margin-left:20%;
+    background-color: rgba(143, 212, 217, .2);
+}
+.me ~ .text-time{
+    text-align: right;
+}
+.you{
+    margin-right:20%;
+}
+.you ~ .text-time{
+    /* margin-left:30%; */
+}
+/* Login form styling */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.success-story, .success-header {
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.sucess-story {
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.success-header {
+    font-size: 30px;
+    align-items:center;
+    justify-content: space-around;
+}
+#storeis{
+    background-color: rgba(143, 212, 217,.2);
+    padding: 40px 15px;
+}
+.success-header img{
+    height:150px;
+    width: auto;
+}
+
+#slide-1 a, #slide-3 a {
+    color: #fff;
+}
+
+#slide-1 a:hover, #slide-3 a:hover {
+    color: #17a697;
+    border: 1px solid #fff;
+}
+
+.individual-story {
+    margin: 0 20px;
+}
+
+.whyH2H {
+    margin: 0 20px;
+}
+
+.successes {
+    margin: 0 30px 10px 20px;
+}
